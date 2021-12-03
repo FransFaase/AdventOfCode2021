@@ -28,3 +28,7 @@ My effort of the [Advent of Code 2021](https://adventofcode.com) contest
   The sources are the raw sources that I used for solving the puzzle,
   including all debug statements. Took me about 51 minutes to solve
   the puzzles.
+  
+  Afterwards, I realized that it is also possible to build a counting
+  tree. In the evening, I wrote this implementation using this:
+  * [day03e2.cpp](day03e2.cpp)
