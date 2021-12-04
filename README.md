@@ -32,3 +32,11 @@ My effort of the [Advent of Code 2021](https://adventofcode.com) contest
   Afterwards, I realized that it is also possible to build a counting
   tree. In the evening, I wrote this implementation using this:
   * [day03e2.cpp](day03e2.cpp)
+
+* Programs for December 4, 2021:
+  * [day04.cpp](day04.cpp)
+  * [day04e.cpp](day04e.cpp)
+
+  I woke way too early. Probably I am taking this a little bit to
+  serious. It took me 32 minutes to solved the first puzzle and
+  another 5 to solve the second puzzle.
