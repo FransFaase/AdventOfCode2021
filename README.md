@@ -90,3 +90,29 @@ bug in there that took me some time to find.
 Day       Time   Rank  Score       Time   Rank  Score
   5   00:18:14   2156      0   00:29:31   1988      0
 ```
+
+### December 6, 2021:
+
+Programs:
+  * [day06.cpp](day06.cpp)
+  * [day06e.cpp](day06e.cpp)
+
+I woke up by the alarm that went of at 5:50 AM (CET).
+I did not do very well this time. I should have thought about
+the puzzle a little longer than I did and realize a little
+sooner that you only have to keep a count of the number of
+fish of each 'age'. With the second puzzle, I saw some
+negative number when using 'long long', so, I implemented
+my own big number type. Later, a tried again with 'long long'
+and it did work. I guess, I might have used '%ld' instead of
+'%lld' in the printf call. Below a cleaned up version of the
+program and one that uses 'long long int';
+  * [day06e_c.cpp](day06e_c.cpp)
+  * [day06e_ll.cpp](day06e_ll.cpp)
+
+
+```
+      --------Part 1--------   --------Part 2--------
+Day       Time   Rank  Score       Time   Rank  Score
+  6   00:34:05   9002      0   00:58:39   6733      0
+```
