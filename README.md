@@ -110,9 +110,27 @@ program and one that uses 'long long int';
   * [day06e_c.cpp](day06e_c.cpp)
   * [day06e_ll.cpp](day06e_ll.cpp)
 
-
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
   6   00:34:05   9002      0   00:58:39   6733      0
+```
+
+### December 7, 2021:
+
+Programs:
+  * [day07.cpp](day07.cpp)
+  * [day07e.cpp](day07e.cpp)
+
+I woke up by the alarm that went of at 5:50 AM (CET).
+I just did these puzzle with brute force, not even bothering
+to think about the short formulea for adding number 1 to n.
+Later, I thought more about it during the day, and came up
+with a more efficient solution:
+  * [day07_c.cpp](day07_c.cpp)
+
+```
+      --------Part 1--------   --------Part 2--------
+Day       Time   Rank  Score       Time   Rank  Score
+  7   00:21:24   8260      0   00:28:08   7030      0
 ```
