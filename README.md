@@ -134,3 +134,23 @@ with a more efficient solution:
 Day       Time   Rank  Score       Time   Rank  Score
   7   00:21:24   8260      0   00:28:08   7030      0
 ```
+
+### December 8, 2021
+
+Program:
+ * [Day08.cpp](day07.cpp)
+
+I woke up early. I implemented the generic algorithm for
+matching the segments, which resulted me in taking a long
+time to solve the first puzzle and a relatevily short time
+to solve the second. I used a permutation class which I have
+been using before in many of [my other programs](https://www.iwriteiam.nl/Programs.html).
+At some point, There are two encodings of the digits in
+the program, because at some point, I thought that there
+was an error in it.
+
+```
+      --------Part 1--------   --------Part 2--------
+Day       Time   Rank  Score       Time   Rank  Score
+  8   01:20:30  12650      0   01:23:27   3718      0
+```
