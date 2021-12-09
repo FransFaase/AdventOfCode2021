@@ -2,11 +2,11 @@
 
 My effort of the [Advent of Code 2021](https://adventofcode.com) contest
 
-### Programs for December 1, 2021
+### December 1, 2021
 
 Programs:
-  * [day01.cpp](day01.cpp)
-  * [day01e.cpp](day01e.cpp)
+  * [day01.cpp](src/day01.cpp)
+  * [day01e.cpp](src/day01e.cpp)
 
 After having read that someone wrote their own programming language
 to solve the Advent of Code, it got me thinking about a specification
@@ -22,8 +22,8 @@ Day       Time   Rank  Score       Time   Rank  Score
 ### December 2, 2021:
 
 Programs:
-  * [day02.cpp](day02.cpp)
-  * [day02e.cpp](day02e.cpp)
+  * [day02.cpp](src/day02.cpp)
+  * [day02e.cpp](src/day02e.cpp)
   
 I had set my alarm at 6 AM [CET] but woke up ten minutes early.
 About 6:03, I was ready to start solving todays puzzles. The second
@@ -38,8 +38,8 @@ Day       Time   Rank  Score       Time   Rank  Score
 ### December 3, 2021:
 
 Programs:
-  * [day03.cpp](day03.cpp)
-  * [day03e.cpp](day03e.cpp)
+  * [day03.cpp](src/day03.cpp)
+  * [day03e.cpp](src/day03e.cpp)
   
 I had set my alarm at 5:50 AM [CET] but in the middle of a dream,
 I thought: 'It is time'. I woke up and it was 5:47.
@@ -61,8 +61,8 @@ tree. In the evening, I wrote this implementation using this:
 ### December 4, 2021:
 
 Programs:
-  * [day04.cpp](day04.cpp)
-  * [day04e.cpp](day04e.cpp)
+  * [day04.cpp](src/day04.cpp)
+  * [day04e.cpp](src/day04e.cpp)
 
 I woke way too early. Probably I am taking this a little bit to
 serious. It took me 32 minutes to solved the first puzzle and
@@ -77,8 +77,8 @@ Day       Time   Rank  Score       Time   Rank  Score
 ### December 5, 2021:
 
 Programs:
-  * [day05.cpp](day05.cpp)
-  * [day05e.cpp](day05e.cpp)
+  * [day05.cpp](src/day05.cpp)
+  * [day05e.cpp](src/day05e.cpp)
 
 I woke up just before 5 AM. For the second puzzle, I actually
 implemented a more generic algorithm. There was one Boolean
@@ -94,8 +94,8 @@ Day       Time   Rank  Score       Time   Rank  Score
 ### December 6, 2021:
 
 Programs:
-  * [day06.cpp](day06.cpp)
-  * [day06e.cpp](day06e.cpp)
+  * [day06.cpp](src/day06.cpp)
+  * [day06e.cpp](src/day06e.cpp)
 
 I woke up by the alarm that went of at 5:50 AM (CET).
 I did not do very well this time. I should have thought about
@@ -119,8 +119,8 @@ Day       Time   Rank  Score       Time   Rank  Score
 ### December 7, 2021:
 
 Programs:
-  * [day07.cpp](day07.cpp)
-  * [day07e.cpp](day07e.cpp)
+  * [day07.cpp](src/day07.cpp)
+  * [day07e.cpp](src/day07e.cpp)
 
 I woke up by the alarm that went of at 5:50 AM (CET).
 I just did these puzzle with brute force, not even bothering
@@ -138,7 +138,7 @@ Day       Time   Rank  Score       Time   Rank  Score
 ### December 8, 2021
 
 Program:
- * [Day08.cpp](day07.cpp)
+ * [Day08.cpp](src/day08.cpp)
 
 I woke up early. I implemented the generic algorithm for
 matching the segments, which resulted me in taking a long
@@ -153,4 +153,20 @@ was an error in it.
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
   8   01:20:30  12650      0   01:23:27   3718      0
+```
+
+### December 9, 2021
+
+Program:
+ * [Day09.cpp](src/day09.cpp)
+
+I woke up by the alarm that went of at 5:50 AM (CET).
+For the second puzzle, I used a simple recursive function
+to find the basin, asuming that the stack was large enough
+to hold the recursion depth. And it worked.
+
+```
+      --------Part 1--------   --------Part 2--------
+Day       Time   Rank  Score       Time   Rank  Score
+  9   00:12:27   2469      0   00:29:52   1850      0
 ```
