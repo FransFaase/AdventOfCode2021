@@ -13,12 +13,6 @@ to solve the Advent of Code, it got me thinking about a specification
 language for this kind of puzzles. I wrote [something](https://www.iwriteiam.nl/D2112.html#1)
 about it on my website.
 
-```
-      --------Part 1--------   --------Part 2--------
-Day       Time   Rank  Score       Time   Rank  Score
-  1   01:20:45  11747      0   01:39:14  11235      0
-```
-
 ### December 2, 2021:
 
 Programs:
@@ -28,12 +22,6 @@ Programs:
 I had set my alarm at 6 AM [CET] but woke up ten minutes early.
 About 6:03, I was ready to start solving todays puzzles. The second
 one required some debugging using the sample input.
-
-```
-      --------Part 1--------   --------Part 2--------
-Day       Time   Rank  Score       Time   Rank  Score
-  2   00:14:44   8720      0   00:26:15   9663      0
-```
 
 ### December 3, 2021:
 
@@ -47,12 +35,6 @@ The sources are the raw sources that I used for solving the puzzle,
 including all debug statements. Took me about 51 minutes to solve
 the puzzles.
 
-```
-      --------Part 1--------   --------Part 2--------
-Day       Time   Rank  Score       Time   Rank  Score
-  3   00:13:38   4692      0   00:50:06   5418      0
-```
-  
 Afterwards, I realized that it is also possible to build a counting
 tree. In the evening, I wrote this implementation using this:
   * [day03e2.cpp](day03e2.cpp)
@@ -68,12 +50,6 @@ I woke way too early. Probably I am taking this a little bit to
 serious. It took me 32 minutes to solved the first puzzle and
 another 5 to solve the second puzzle.
 
-```
-      --------Part 1--------   --------Part 2--------
-Day       Time   Rank  Score       Time   Rank  Score
-  4   00:32:01   2876      0   00:36:50   2211      0
-```
-  
 ### December 5, 2021:
 
 Programs:
@@ -83,13 +59,6 @@ Programs:
 I woke up just before 5 AM. For the second puzzle, I actually
 implemented a more generic algorithm. There was one Boolean
 bug in there that took me some time to find.
-
-
-```
-      --------Part 1--------   --------Part 2--------
-Day       Time   Rank  Score       Time   Rank  Score
-  5   00:18:14   2156      0   00:29:31   1988      0
-```
 
 ### December 6, 2021:
 
@@ -110,12 +79,6 @@ program and one that uses 'long long int';
   * [day06e_c.cpp](day06e_c.cpp)
   * [day06e_ll.cpp](day06e_ll.cpp)
 
-```
-      --------Part 1--------   --------Part 2--------
-Day       Time   Rank  Score       Time   Rank  Score
-  6   00:34:05   9002      0   00:58:39   6733      0
-```
-
 ### December 7, 2021:
 
 Programs:
@@ -128,12 +91,6 @@ to think about the short formulea for adding number 1 to n.
 Later, I thought more about it during the day, and came up
 with a more efficient solution:
   * [day07_c.cpp](day07_c.cpp)
-
-```
-      --------Part 1--------   --------Part 2--------
-Day       Time   Rank  Score       Time   Rank  Score
-  7   00:21:24   8260      0   00:28:08   7030      0
-```
 
 ### December 8, 2021
 
@@ -149,12 +106,6 @@ At some point, There are two encodings of the digits in
 the program, because at some point, I thought that there
 was an error in it.
 
-```
-      --------Part 1--------   --------Part 2--------
-Day       Time   Rank  Score       Time   Rank  Score
-  8   01:20:30  12650      0   01:23:27   3718      0
-```
-
 ### December 9, 2021
 
 Program:
@@ -165,8 +116,36 @@ For the second puzzle, I used a simple recursive function
 to find the basin, asuming that the stack was large enough
 to hold the recursion depth. And it worked.
 
+### December 10, 2021
+
+Program:
+ * [Day10.cpp](src/day10.cpp)
+
+I woke up a bit early. I decided to use a stack, instead of
+recursive calls, for this puzzle. And I think it was the
+right choice. It is possible to do it with a recursive
+function, but it would require some additional Booleans
+to get it working.
+
+During the day, I thought about also calculating the minimum
+number of brackets to add to fix every line. The program that
+includes an algorithm for this is:
+ * [Day10_s.cpp](src/day10_s.cpp) 
+
+### Personal stats
+
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 10   00:22:01   4923      0   00:32:37   4057      0
   9   00:12:27   2469      0   00:29:52   1850      0
+  8   01:20:30  12650      0   01:23:27   3718      0
+  7   00:21:24   8260      0   00:28:08   7030      0
+  6   00:34:05   9002      0   00:58:39   6733      0
+  5   00:18:14   2156      0   00:29:31   1988      0
+  4   00:32:01   2876      0   00:36:50   2211      0
+  3   00:13:38   4692      0   00:50:06   5418      0
+  2   00:14:44   8720      0   00:26:15   9663      0
+  1   01:20:45  11747      0   01:39:14  11235      0
+
 ```
