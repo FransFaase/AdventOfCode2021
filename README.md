@@ -132,11 +132,31 @@ number of brackets to add to fix every line. The program that
 includes an algorithm for this is:
  * [Day10_s.cpp](src/day10_s.cpp) 
 
+### December 11, 2021
+
+Program:
+ * [Day11.cpp](src/day11.cpp)
+ 
+I woke up a bit early. I was plagued by a one-of-error. (You
+can still find it in the commented parts of the code.) This
+first made me change the algorithm to accumulate the extra
+energy in a separate array called `extra` and apply it after
+the flashes had occured. Next, I implemented a recursive
+method for applying the flashes, which sounds a bit similar
+to the puzzle description. Only then I discovered that there
+was a one-of-error. And after I had fixed it, I quickly found
+the answers with my input file. Then I reverted many of the
+changes, corrected the one-of-error, and verified that the
+original algorithm did return the correct answers. See:
+ * [Day11_f.cpp](src/day11_f.cpp)
+
+
 ### Personal stats
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 11   00:53:12   4930      0   00:58:02   4831      0
  10   00:22:01   4923      0   00:32:37   4057      0
   9   00:12:27   2469      0   00:29:52   1850      0
   8   01:20:30  12650      0   01:23:27   3718      0

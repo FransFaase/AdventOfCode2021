@@ -64,8 +64,12 @@ int nr_fixes(char *line, int f, int t)
 				min_fixes = fixes;
 		}
 	
-	if (min_fixes == -1)
-		min_fixes = 2 + nr_fixes(line, f+1, t-1);
+	if (min_fixes == -1 || min_fixes > 2)
+	{
+		int fixes = 2 + nr_fixes(line, f+1, t-1);
+		if (min_fixes == -1 || fixes < min_fixes)
+			min_fixes = fixes;
+	}
 	
 	for (int i = 0; i < i_f; i++)
 		printf(" ");
