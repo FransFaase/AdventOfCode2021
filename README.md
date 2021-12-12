@@ -151,11 +151,29 @@ original algorithm did return the correct answers. See:
  * [Day11_f.cpp](src/day11_f.cpp)
 
 
+### December 12, 2021
+
+Program:
+ * [Day12.cpp](src/day12.cpp)
+
+I woke up by the alarm that went of at 5:50 AM (CET). For
+the second puzzle, I at first thought that you could visit
+every small cave twice.
+
+During the day, I came up with an extra puzzle. What if
+you are allowed to change the 'small' or 'big' status of
+each cave. What is the maximum number of paths you can find
+(using the rule that one small cave may be visited twice).
+The modified version of the program is:
+ * [Day12_e.cpp](src/day12_e.cpp)
+
+ 
 ### Personal stats
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 12   00:37:55   3454      0   01:05:36   3699      0
  11   00:53:12   4930      0   00:58:02   4831      0
  10   00:22:01   4923      0   00:32:37   4057      0
   9   00:12:27   2469      0   00:29:52   1850      0
