@@ -168,11 +168,20 @@ The modified version of the program is:
  * [Day12_e.cpp](src/day12_e.cpp)
 
  
+### December 13, 2021
+
+Program:
+ * [Day13.cpp](src/day13.cpp)
+
+I woke up by the alarm that went of at 5:50 AM (CET). I
+struggled a lot to get x and y direction correct.
+ 
 ### Personal stats
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 13   00:50:10   5529      0   00:53:08   4546      0
  12   00:37:55   3454      0   01:05:36   3699      0
  11   00:53:12   4930      0   00:58:02   4831      0
  10   00:22:01   4923      0   00:32:37   4057      0
