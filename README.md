@@ -176,11 +176,25 @@ Program:
 I woke up by the alarm that went of at 5:50 AM (CET). I
 struggled a lot to get x and y direction correct.
  
+### December 14, 2021
+
+Program:
+ * [Day14.cpp](src/day14.cpp)
+
+I woke up a bit earlier. After having read the description and
+having seen my input (and realize that it was a bit longer),
+I quickly decided not to reproduce the polymer, but to count
+the number of pairs (matching the rules).
+That resulted in me taking to solve the first puzzle a bit longer,
+but the second (after changing `long` into `long long`) a bit
+quicker.
+
 ### Personal stats
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 14   00:46:41   7095      0   00:49:08   2148      0
  13   00:50:10   5529      0   00:53:08   4546      0
  12   00:37:55   3454      0   01:05:36   3699      0
  11   00:53:12   4930      0   00:58:02   4831      0
