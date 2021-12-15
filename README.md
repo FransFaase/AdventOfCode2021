@@ -189,11 +189,29 @@ That resulted in me taking to solve the first puzzle a bit longer,
 but the second (after changing `long` into `long long`) a bit
 quicker.
 
+### December 15, 2021
+
+Program:
+ * [Day15.cpp](src/day15.cpp)
+ * [Day15b.cpp](src/day15b.cpp)
+
+Very frustrating puzzle today. I was ready to give up, because I
+was totally convinced that my answer was correct. From the example,
+I was tricked into believing that path was always going down and
+the left. After I visited [the forum](https://www.reddit.com/r/adventofcode),
+I realized that nowhere in the description it states this requirement;
+the path can also go up and left again. After having fixed this,
+I quickly found the correct answers. When I looked at my personal
+stats, I noticed that my rank was much lower than expected. I guess
+that many others, especially those you are doing it for the first
+time, have made the same mistake.
+
 ### Personal stats
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 15   01:00:38   3927      0   01:16:39   2575      0
  14   00:46:41   7095      0   00:49:08   2148      0
  13   00:50:10   5529      0   00:53:08   4546      0
  12   00:37:55   3454      0   01:05:36   3699      0
