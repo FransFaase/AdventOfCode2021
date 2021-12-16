@@ -206,11 +206,20 @@ stats, I noticed that my rank was much lower than expected. I guess
 that many others, especially those you are doing it for the first
 time, have made the same mistake.
 
+### December 16, 2021
+
+Program:
+ * [Day16.cpp](src/day16.cpp)
+
+I woke up at 5:14. I immediately started writing stream classes.
+All in all, it went quite smooth.
+
 ### Personal stats
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 16   01:05:46   2019      0   01:35:14   2323      0
  15   01:00:38   3927      0   01:16:39   2575      0
  14   00:46:41   7095      0   00:49:08   2148      0
  13   00:50:10   5529      0   00:53:08   4546      0
