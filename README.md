@@ -214,11 +214,23 @@ Program:
 I woke up at 5:14. I immediately started writing stream classes.
 All in all, it went quite smooth.
 
+### December 17, 2021
+
+Program:
+ * [Day17.cpp](src/day17.cpp)
+
+I woke up by the alarm that went of at 5:50 AM (CET). I had no idea
+if the brute force method (just scanning a large area) was going to
+work, but it did. For the second puzzle I made some attempt to
+restrict the search area, using the answer of the first puzzle, but
+I wonder if it was really needed.
+
 ### Personal stats
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 17   00:36:22   2461      0   00:57:56   2892      0
  16   01:05:46   2019      0   01:35:14   2323      0
  15   01:00:38   3927      0   01:16:39   2575      0
  14   00:46:41   7095      0   00:49:08   2148      0
