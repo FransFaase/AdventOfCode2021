@@ -225,11 +225,26 @@ work, but it did. For the second puzzle I made some attempt to
 restrict the search area, using the answer of the first puzzle, but
 I wonder if it was really needed.
 
+### December 18, 2021
+
+Program:
+ * [Day18.cpp](src/day18.cpp)
+ * [Day18b.cpp](src/day18b.cpp)
+
+I woke up by the alarm that went of at 5:50 AM (CET). When starting
+to read the problem, I had to think about [surreal numbers](https://en.wikipedia.org/wiki/Surreal_number)
+It took me a long time to fix the iterator to walk through the numbers.
+Several times, I considered to change to a list of numbers with their depth.
+(Maybe that would have made calculating the magnitude a bit harder.)
+I did not make any big errors in implementing the explode and split
+operation. I did not spend any effort in deleting any of the pairs.
+
 ### Personal stats
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 18   02:20:41   1880      0   02:31:00   1869      0
  17   00:36:22   2461      0   00:57:56   2892      0
  16   01:05:46   2019      0   01:35:14   2323      0
  15   01:00:38   3927      0   01:16:39   2575      0
