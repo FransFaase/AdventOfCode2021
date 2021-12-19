@@ -2,7 +2,7 @@
 
 My effort of the [Advent of Code 2021](https://adventofcode.com) contest
 
-### December 1, 2021
+### Wednesday, December 1, 2021
 
 Programs:
   * [day01.cpp](src/day01.cpp)
@@ -13,7 +13,7 @@ to solve the Advent of Code, it got me thinking about a specification
 language for this kind of puzzles. I wrote [something](https://www.iwriteiam.nl/D2112.html#1)
 about it on my website.
 
-### December 2, 2021:
+### Thursday, December 2, 2021:
 
 Programs:
   * [day02.cpp](src/day02.cpp)
@@ -23,7 +23,7 @@ I had set my alarm at 6 AM [CET] but woke up ten minutes early.
 About 6:03, I was ready to start solving todays puzzles. The second
 one required some debugging using the sample input.
 
-### December 3, 2021:
+### Friday, December 3, 2021:
 
 Programs:
   * [day03.cpp](src/day03.cpp)
@@ -40,7 +40,7 @@ tree. In the evening, I wrote this implementation using this:
   * [day03e2.cpp](day03e2.cpp)
 
 
-### December 4, 2021:
+### Saturday, December 4, 2021:
 
 Programs:
   * [day04.cpp](src/day04.cpp)
@@ -50,7 +50,7 @@ I woke way too early. Probably I am taking this a little bit to
 serious. It took me 32 minutes to solved the first puzzle and
 another 5 to solve the second puzzle.
 
-### December 5, 2021:
+### Sunday, December 5, 2021:
 
 Programs:
   * [day05.cpp](src/day05.cpp)
@@ -60,7 +60,7 @@ I woke up just before 5 AM. For the second puzzle, I actually
 implemented a more generic algorithm. There was one Boolean
 bug in there that took me some time to find.
 
-### December 6, 2021:
+### Monday, December 6, 2021:
 
 Programs:
   * [day06.cpp](src/day06.cpp)
@@ -79,7 +79,7 @@ program and one that uses 'long long int';
   * [day06e_c.cpp](day06e_c.cpp)
   * [day06e_ll.cpp](day06e_ll.cpp)
 
-### December 7, 2021:
+### Tuesday, December 7, 2021:
 
 Programs:
   * [day07.cpp](src/day07.cpp)
@@ -92,7 +92,7 @@ Later, I thought more about it during the day, and came up
 with a more efficient solution:
   * [day07_c.cpp](day07_c.cpp)
 
-### December 8, 2021
+### Wednesday, December 8, 2021
 
 Program:
  * [Day08.cpp](src/day08.cpp)
@@ -106,7 +106,7 @@ At some point, There are two encodings of the digits in
 the program, because at some point, I thought that there
 was an error in it.
 
-### December 9, 2021
+### Thursday, December 9, 2021
 
 Program:
  * [Day09.cpp](src/day09.cpp)
@@ -116,7 +116,7 @@ For the second puzzle, I used a simple recursive function
 to find the basin, asuming that the stack was large enough
 to hold the recursion depth. And it worked.
 
-### December 10, 2021
+### Friday, December 10, 2021
 
 Program:
  * [Day10.cpp](src/day10.cpp)
@@ -132,7 +132,7 @@ number of brackets to add to fix every line. The program that
 includes an algorithm for this is:
  * [Day10_s.cpp](src/day10_s.cpp) 
 
-### December 11, 2021
+### Saturday, December 11, 2021
 
 Program:
  * [Day11.cpp](src/day11.cpp)
@@ -151,7 +151,7 @@ original algorithm did return the correct answers. See:
  * [Day11_f.cpp](src/day11_f.cpp)
 
 
-### December 12, 2021
+### Sunday, December 12, 2021
 
 Program:
  * [Day12.cpp](src/day12.cpp)
@@ -168,7 +168,7 @@ The modified version of the program is:
  * [Day12_e.cpp](src/day12_e.cpp)
 
  
-### December 13, 2021
+### Monday, December 13, 2021
 
 Program:
  * [Day13.cpp](src/day13.cpp)
@@ -176,7 +176,7 @@ Program:
 I woke up by the alarm that went of at 5:50 AM (CET). I
 struggled a lot to get x and y direction correct.
  
-### December 14, 2021
+### Tuesday, December 14, 2021
 
 Program:
  * [Day14.cpp](src/day14.cpp)
@@ -189,7 +189,7 @@ That resulted in me taking to solve the first puzzle a bit longer,
 but the second (after changing `long` into `long long`) a bit
 quicker.
 
-### December 15, 2021
+### Wednesday, December 15, 2021
 
 Program:
  * [Day15.cpp](src/day15.cpp)
@@ -206,7 +206,7 @@ stats, I noticed that my rank was much lower than expected. I guess
 that many others, especially those you are doing it for the first
 time, have made the same mistake.
 
-### December 16, 2021
+### Thursday,December 16, 2021
 
 Program:
  * [Day16.cpp](src/day16.cpp)
@@ -214,7 +214,7 @@ Program:
 I woke up at 5:14. I immediately started writing stream classes.
 All in all, it went quite smooth.
 
-### December 17, 2021
+### Friday, December 17, 2021
 
 Program:
  * [Day17.cpp](src/day17.cpp)
@@ -225,7 +225,7 @@ work, but it did. For the second puzzle I made some attempt to
 restrict the search area, using the answer of the first puzzle, but
 I wonder if it was really needed.
 
-### December 18, 2021
+### Saturday, December 18, 2021
 
 Program:
  * [Day18.cpp](src/day18.cpp)
@@ -239,11 +239,27 @@ Several times, I considered to change to a list of numbers with their depth.
 I did not make any big errors in implementing the explode and split
 operation. I did not spend any effort in deleting any of the pairs.
 
+### Sunday, December 19, 2021
+
+Program:
+ * [Day19.cpp](src/day19.cpp)
+
+I woke up by the alarm that went of at 5:50 AM (CET). I quickly
+understood what this puzzle was about. I decided to test every step
+of finding the solution. For the rotations, I borrowed some code
+from my [gen_dpfpc](https://www.iwriteiam.nl/Ha_gen_dpfp_c.txt)
+program. Because finding the matching between the various beaconds,
+took more than a few seconds, I decided to store the data in the program.
+To find the matchings, compile the program with `-D PROCESS_INPUT`. I made
+use of `grep beacon | sort -u | wc` on the output, to solve the first
+puzzle.
+
 ### Personal stats
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 19   02:57:33   1350      0   03:08:05   1262      0
  18   02:20:41   1880      0   02:31:00   1869      0
  17   00:36:22   2461      0   00:57:56   2892      0
  16   01:05:46   2019      0   01:35:14   2323      0
