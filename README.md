@@ -239,6 +239,9 @@ Several times, I considered to change to a list of numbers with their depth.
 I did not make any big errors in implementing the explode and split
 operation. I did not spend any effort in deleting any of the pairs.
 
+In the days after this, I worked on implementing three more solutions
+with different data structures. See [Snailfish numbers](Day18.md).
+
 ### Sunday, December 19, 2021
 
 Program:
@@ -254,7 +257,7 @@ To find the matchings, compile the program with `-D PROCESS_INPUT`. I made
 use of `grep beacon | sort -u | wc` on the output, to solve the first
 puzzle.
 
-### Sunday, December 20, 2021
+### Monday, December 20, 2021
 
 Program:
  * [Day20.cpp](src/day20.cpp)
