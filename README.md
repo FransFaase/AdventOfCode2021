@@ -254,11 +254,24 @@ To find the matchings, compile the program with `-D PROCESS_INPUT`. I made
 use of `grep beacon | sort -u | wc` on the output, to solve the first
 puzzle.
 
+### Sunday, December 20, 2021
+
+Program:
+ * [Day20.cpp](src/day20.cpp)
+
+I woke up early. I started about 10 minutes after 5 AM (CET) because
+I wanted to update my website first. Being afraid of making a
+small mistake, I worked through the example step for step. Only
+to discover that my puzzle input (and probably of everyone) had
+a little twist, but it was simple to fix. The second puzzle was
+not really that hard.
+
 ### Personal stats
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 20   00:54:38   1881      0   00:56:45   1689      0
  19   02:57:33   1350      0   03:08:05   1262      0
  18   02:20:41   1880      0   02:31:00   1869      0
  17   00:36:22   2461      0   00:57:56   2892      0
