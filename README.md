@@ -269,11 +269,23 @@ to discover that my puzzle input (and probably of everyone) had
 a little twist, but it was simple to fix. The second puzzle was
 not really that hard.
 
+### Tuesday, December 21, 2021
+
+Program:
+ * [Day21.cpp](src/day21.cpp)
+ 
+I woke up by the alarm that went of at 5:50 AM (CET). This first
+puzzle was kind of simple. The second took me some more time. I
+decided to first try a recursive approach and it worked in the
+end. I struggled a bit with keeping track of the multiplicity of
+a universe. I first counted it per player.
+
 ### Personal stats
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 21   00:21:17   2234      0   01:26:07   1999      0
  20   00:54:38   1881      0   00:56:45   1689      0
  19   02:57:33   1350      0   03:08:05   1262      0
  18   02:20:41   1880      0   02:31:00   1869      0
