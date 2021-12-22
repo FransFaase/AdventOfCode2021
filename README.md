@@ -225,6 +225,13 @@ work, but it did. For the second puzzle I made some attempt to
 restrict the search area, using the answer of the first puzzle, but
 I wonder if it was really needed.
 
+(Addition on December 22:) The first puzzle can simple be solved
+with some analytical reasoning. The search area for the second
+puzzle can be reduced substantially. This is demonstrated in the
+following program:
+ * [Day17_s.cpp](src/day17_s.cpp)
+
+
 ### Saturday, December 18, 2021
 
 Program:
