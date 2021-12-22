@@ -280,11 +280,28 @@ decided to first try a recursive approach and it worked in the
 end. I struggled a bit with keeping track of the multiplicity of
 a universe. I first counted it per player.
 
+### Wednesday, December 22, 2021
+
+Program:
+ * [Day22.cpp](src/day22.cpp)
+ * [Day22b.cpp](src/day22b.cpp)
+
+I woke up about ten minutes before the alarm. I did the first
+puzzle in a brute force manner. It took me a long time to figure
+out how to solve the second puzzle. I think I could not find the
+quiescence to solve it. As you can see from the code, I did a
+lot of experimentation to find out of the input had certain
+properties that would make it easy to solve the problem. A
+cleaned up version of the program, which returns both answers, is:
+ * [Day22_s.cpp](src/day22_s.cpp)
+
+ 
 ### Personal stats
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 22   00:33:12   2678      0   03:56:16   2367      0
  21   00:21:17   2234      0   01:26:07   1999      0
  20   00:54:38   1881      0   00:56:45   1689      0
  19   02:57:33   1350      0   03:08:05   1262      0
