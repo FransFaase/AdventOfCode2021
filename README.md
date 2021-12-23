@@ -225,13 +225,6 @@ work, but it did. For the second puzzle I made some attempt to
 restrict the search area, using the answer of the first puzzle, but
 I wonder if it was really needed.
 
-(Addition on December 22:) The first puzzle can simple be solved
-with some analytical reasoning. The search area for the second
-puzzle can be reduced substantially. This is demonstrated in the
-following program:
- * [Day17_s.cpp](src/day17_s.cpp)
-
-
 ### Saturday, December 18, 2021
 
 Program:
@@ -302,12 +295,51 @@ properties that would make it easy to solve the problem. A
 cleaned up version of the program, which returns both answers, is:
  * [Day22_s.cpp](src/day22_s.cpp)
 
- 
+In the evening, I finished improving my puzzle for December 17.
+The first puzzle can simple be solved with some analytical reasoning.
+The search area for the second puzzle can be reduced substantially.
+This is demonstrated in the following program:
+ * [Day17_s.cpp](src/day17_s.cpp)
+
+### Thursday, December 23, 2021
+
+I do not like this puzzle. I started building some distance
+table to figure out the number of steps between all positions.
+Then about half an hour in, someone said that the first puzzle
+could be done by hand. After some time, I tried this myself.
+I found a solution, but when I submitted it was not the shortest.
+To rule out that I made an error, I worked on some code to
+verify every step. That did not work out. I got more and more
+frustrated, trying to write code to find all states. The longer,
+I worked, the more I got frustated and stressed, which did not
+really help thinking about the code. After about five hours, I
+gave up. I realized I was taking this all too serious, adapting
+my normal scedule, all because I wanted to stay on top of the
+private leaderboard of our company. I decided to quit. I removed
+myself from the private leaderboard.
+
+After dinner, I decided to give it a second try, now that I
+had calmed down and no longer felt the pressure to compete. I
+just managed to find the answers to both puzzles by brute force
+expanding the state space until finding the solution. I still
+had to get fix a bug in the function (`free_route`) that counted
+the steps for getting the second result right. For this I added
+so code to print out all the states from the final state back to
+the input state. In the mean time, I did think a bit about finding
+a method to estimate the 'additional' costs to the final state,
+in order to narrow down the search space, but I still have no
+idea how to approach it. The program, as it was when I finished
+the second puzzle (and with a lot of code commented out that
+I wrote earlier) is:
+ * [Day23.cpp](src/day23.cpp)
+
 ### Personal stats
+
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 23   15:31:43   8129      0   17:44:30   5809      0
  22   00:33:12   2678      0   03:56:16   2367      0
  21   00:21:17   2234      0   01:26:07   1999      0
  20   00:54:38   1881      0   00:56:45   1689      0
