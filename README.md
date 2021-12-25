@@ -95,7 +95,7 @@ with a more efficient solution:
 ### Wednesday, December 8, 2021
 
 Program:
- * [Day08.cpp](src/day08.cpp)
+ * [day08.cpp](src/day08.cpp)
 
 I woke up early. I implemented the generic algorithm for
 matching the segments, which resulted me in taking a long
@@ -109,7 +109,7 @@ was an error in it.
 ### Thursday, December 9, 2021
 
 Program:
- * [Day09.cpp](src/day09.cpp)
+ * [day09.cpp](src/day09.cpp)
 
 I woke up by the alarm that went of at 5:50 AM (CET).
 For the second puzzle, I used a simple recursive function
@@ -119,7 +119,7 @@ to hold the recursion depth. And it worked.
 ### Friday, December 10, 2021
 
 Program:
- * [Day10.cpp](src/day10.cpp)
+ * [day10.cpp](src/day10.cpp)
 
 I woke up a bit early. I decided to use a stack, instead of
 recursive calls, for this puzzle. And I think it was the
@@ -130,12 +130,12 @@ to get it working.
 During the day, I thought about also calculating the minimum
 number of brackets to add to fix every line. The program that
 includes an algorithm for this is:
- * [Day10_s.cpp](src/day10_s.cpp) 
+ * [day10_s.cpp](src/day10_s.cpp) 
 
 ### Saturday, December 11, 2021
 
 Program:
- * [Day11.cpp](src/day11.cpp)
+ * [day11.cpp](src/day11.cpp)
  
 I woke up a bit early. I was plagued by a one-of-error. (You
 can still find it in the commented parts of the code.) This
@@ -148,13 +148,13 @@ was a one-of-error. And after I had fixed it, I quickly found
 the answers with my input file. Then I reverted many of the
 changes, corrected the one-of-error, and verified that the
 original algorithm did return the correct answers. See:
- * [Day11_f.cpp](src/day11_f.cpp)
+ * [day11_f.cpp](src/day11_f.cpp)
 
 
 ### Sunday, December 12, 2021
 
 Program:
- * [Day12.cpp](src/day12.cpp)
+ * [day12.cpp](src/day12.cpp)
 
 I woke up by the alarm that went of at 5:50 AM (CET). For
 the second puzzle, I at first thought that you could visit
@@ -165,13 +165,13 @@ you are allowed to change the 'small' or 'big' status of
 each cave. What is the maximum number of paths you can find
 (using the rule that one small cave may be visited twice).
 The modified version of the program is:
- * [Day12_e.cpp](src/day12_e.cpp)
+ * [day12_e.cpp](src/day12_e.cpp)
 
  
 ### Monday, December 13, 2021
 
 Program:
- * [Day13.cpp](src/day13.cpp)
+ * [day13.cpp](src/day13.cpp)
 
 I woke up by the alarm that went of at 5:50 AM (CET). I
 struggled a lot to get x and y direction correct.
@@ -179,7 +179,7 @@ struggled a lot to get x and y direction correct.
 ### Tuesday, December 14, 2021
 
 Program:
- * [Day14.cpp](src/day14.cpp)
+ * [day14.cpp](src/day14.cpp)
 
 I woke up a bit earlier. After having read the description and
 having seen my input (and realize that it was a bit longer),
@@ -192,8 +192,8 @@ quicker.
 ### Wednesday, December 15, 2021
 
 Program:
- * [Day15.cpp](src/day15.cpp)
- * [Day15b.cpp](src/day15b.cpp)
+ * [day15.cpp](src/day15.cpp)
+ * [day15b.cpp](src/day15b.cpp)
 
 Very frustrating puzzle today. I was ready to give up, because I
 was totally convinced that my answer was correct. From the example,
@@ -209,7 +209,7 @@ time, have made the same mistake.
 ### Thursday,December 16, 2021
 
 Program:
- * [Day16.cpp](src/day16.cpp)
+ * [day16.cpp](src/day16.cpp)
 
 I woke up at 5:14. I immediately started writing stream classes.
 All in all, it went quite smooth.
@@ -217,7 +217,7 @@ All in all, it went quite smooth.
 ### Friday, December 17, 2021
 
 Program:
- * [Day17.cpp](src/day17.cpp)
+ * [day17.cpp](src/day17.cpp)
 
 I woke up by the alarm that went of at 5:50 AM (CET). I had no idea
 if the brute force method (just scanning a large area) was going to
@@ -228,8 +228,8 @@ I wonder if it was really needed.
 ### Saturday, December 18, 2021
 
 Program:
- * [Day18.cpp](src/day18.cpp)
- * [Day18b.cpp](src/day18b.cpp)
+ * [day18.cpp](src/day18.cpp)
+ * [day18b.cpp](src/day18b.cpp)
 
 I woke up by the alarm that went of at 5:50 AM (CET). When starting
 to read the problem, I had to think about [surreal numbers](https://en.wikipedia.org/wiki/Surreal_number)
@@ -245,7 +245,7 @@ with different data structures. See [Snailfish numbers](Day18.md).
 ### Sunday, December 19, 2021
 
 Program:
- * [Day19.cpp](src/day19.cpp)
+ * [day19.cpp](src/day19.cpp)
 
 I woke up by the alarm that went of at 5:50 AM (CET). I quickly
 understood what this puzzle was about. I decided to test every step
@@ -260,7 +260,7 @@ puzzle.
 ### Monday, December 20, 2021
 
 Program:
- * [Day20.cpp](src/day20.cpp)
+ * [day20.cpp](src/day20.cpp)
 
 I woke up early. I started about 10 minutes after 5 AM (CET) because
 I wanted to update my website first. Being afraid of making a
@@ -272,7 +272,7 @@ not really that hard.
 ### Tuesday, December 21, 2021
 
 Program:
- * [Day21.cpp](src/day21.cpp)
+ * [day21.cpp](src/day21.cpp)
  
 I woke up by the alarm that went of at 5:50 AM (CET). This first
 puzzle was kind of simple. The second took me some more time. I
@@ -283,8 +283,8 @@ a universe. I first counted it per player.
 ### Wednesday, December 22, 2021
 
 Program:
- * [Day22.cpp](src/day22.cpp)
- * [Day22b.cpp](src/day22b.cpp)
+ * [day22.cpp](src/day22.cpp)
+ * [day22b.cpp](src/day22b.cpp)
 
 I woke up about ten minutes before the alarm. I did the first
 puzzle in a brute force manner. It took me a long time to figure
@@ -293,13 +293,13 @@ quiescence to solve it. As you can see from the code, I did a
 lot of experimentation to find out of the input had certain
 properties that would make it easy to solve the problem. A
 cleaned up version of the program, which returns both answers, is:
- * [Day22_s.cpp](src/day22_s.cpp)
+ * [day22_s.cpp](src/day22_s.cpp)
 
 In the evening, I finished improving my puzzle for December 17.
 The first puzzle can simple be solved with some analytical reasoning.
 The search area for the second puzzle can be reduced substantially.
 This is demonstrated in the following program:
- * [Day17_s.cpp](src/day17_s.cpp)
+ * [day17_s.cpp](src/day17_s.cpp)
 
 ### Thursday, December 23, 2021
 
@@ -331,7 +331,7 @@ in order to narrow down the search space, but I still have no
 idea how to approach it. The program, as it was when I finished
 the second puzzle (and with a lot of code commented out that
 I wrote earlier) is:
- * [Day23.cpp](src/day23.cpp)
+ * [day23.cpp](src/day23.cpp)
 
 ### Friday, December 24, 2021
 
@@ -352,8 +352,30 @@ the restrictions I had found earlier and implemented an
 algorithm to find the answer. I did find an answer, but it
 was incorrect. These are the programs with how far I got
 today:
- * [Day24.cpp](src/day24.cpp)
- * [Day24s.cpp](src/day24s.cpp)
+ * [day24.cpp](src/day24.cpp)
+ * [day24s.cpp](src/day24s.cpp)
+
+### Saturday, December 25, 2021
+
+I got up at the end of the afternoon and had a short look
+at the last puzzle and felt it was rather simple, at least
+the first puzzle. But I had other obligations during the
+day. It was only around nine in the evening, that I start
+working on solving the first puzzle of today. It still
+took me a little longer than expected: about one and half
+hour. The program is:
+ * [day25.cpp](src/day25.cpp)
+
+Then I discovered that for solving the second (and
+final) puzzle of today, I had to solve yesterdays puzzle.
+I merged the two programs I wrote before into one program
+and after some fiddling, It generated a program that
+contained seven equalities between the fourteen digits.
+With this seven equations, I could find the answers to
+the first and second puzzle. And with this also get the
+last of fifthy stars. The final program for yesterday is:
+ * [day24b.cpp](src/day24b.cpp)
+
 
 ### Personal stats
 
@@ -361,6 +383,8 @@ today:
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 25   16:34:20   9301      0   18:03:18   5774      0
+ 24       >24h   7420      0       >24h   7311      0
  23   15:31:43   8129      0   17:44:30   5809      0
  22   00:33:12   2678      0   03:56:16   2367      0
  21   00:21:17   2234      0   01:26:07   1999      0
