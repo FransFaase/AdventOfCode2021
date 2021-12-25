@@ -333,6 +333,28 @@ the second puzzle (and with a lot of code commented out that
 I wrote earlier) is:
  * [Day23.cpp](src/day23.cpp)
 
+### Friday, December 24, 2021
+
+My first approach was to convert the input to a `program.h`
+file with equevalent C statement and than include this file
+to do a brute-force search. In the mean time, I decided to
+try to optimize the code, After some time I decided to use
+a `Expr` struct. I also discovered that some expressions
+could be simplified when taking in account the range of
+possible values. When further studying the code, I noticed
+a lot of multiplications and divisions with 26. This lead
+me to implement 26-ary expressions in the struct called
+`Expr26`. Analyzing the results, it seemed that there were
+some restrictions in the input of the MONAD program, but I
+could not figure out how. I decided to go back using the
+`Expr` struct. I thought I was close to a solution using
+the restrictions I had found earlier and implemented an
+algorithm to find the answer. I did find an answer, but it
+was incorrect. These are the programs with how far I got
+today:
+ * [Day24.cpp](src/day24.cpp)
+ * [Day24s.cpp](src/day24s.cpp)
+
 ### Personal stats
 
 
