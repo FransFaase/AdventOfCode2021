@@ -376,6 +376,12 @@ the first and second puzzle. And with this also get the
 last of fifthy stars. The final program for yesterday is:
  * [day24b.cpp](src/day24b.cpp)
 
+## Tuesday, December 28, 2021
+
+In the past days, I continued working on a version for
+the puzzle of December 24, that does calculate the answer
+all by itself. The result of this, is the program:
+ * [day24c.cpp](src/day24c.cpp)
 
 ### Personal stats
 
