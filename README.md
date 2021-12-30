@@ -383,6 +383,14 @@ the puzzle of December 24, that does calculate the answer
 all by itself. The result of this, is the program:
  * [day24c.cpp](src/day24c.cpp)
 
+## Thursday, December 30, 2021
+
+In the past days, I have been trying to improve on my solution
+for December 23. Although I made some progress, I am not very
+satisfied with it. But I have decided to leave it at this for
+the moment. My current, slightly improved, solution is:
+ * [day23b.cpp](src/day23b.cpp)
+
 ### Personal stats
 
 
