@@ -1,6 +1,6 @@
 # Advent Of Code 2021
 
-My effort of the [Advent of Code 2021](https://adventofcode.com) contest
+My effort of the [Advent of Code 2021](https://adventofcode.com/2021) contest
 
 ### Wednesday, December 1, 2021
 
@@ -324,7 +324,7 @@ just managed to find the answers to both puzzles by brute force
 expanding the state space until finding the solution. I still
 had to get fix a bug in the function (`free_route`) that counted
 the steps for getting the second result right. For this I added
-so code to print out all the states from the final state back to
+some code to print out all the states from the final state back to
 the input state. In the mean time, I did think a bit about finding
 a method to estimate the 'additional' costs to the final state,
 in order to narrow down the search space, but I still have no
